@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+      <title>Cricket</title>
+      <meta name="description" content="Make cricket sounds on your phone when things get umm.. awkward.">
+		<meta name="viewport" content="width=320, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		
+		<link rel="stylesheet" href="cricket_files/mobilewidgets.css" type="text/css">
+
+		<style type="text/css">
+		h2 {
+			background-color: green;
+		}
+
+
+
+		</style>
+	</head>
+
+	<body id="body-view">
+
+		<audio id="player" src="cricket_files/cricket-1.mp3"></audio>
+
+		<div style="height: 508px;" class="mw-viewport"><div class="mw-page mw-current-page" id="page1">
+							<div class="mw-page-header">
+								<h2 contenteditable="false">Awkward Silence</h2>
+							</div>
+							<div class="mw-page-content ui-sortable"><div id="widget1" class="widget widget-image">
+				<img src="cricket_files/cricket.jpg">
+
+				</div>
+					<div id="widget2" class="mw-button1 widget widget-button1">
+						<a onclick="document.getElementById('player').play()">Click-to-chirp</a>
+					</div>
+				</div>
+							<div class="mw-page-footer"></div>
+						</div>
+					</div>
+	
+
+</body></html>
